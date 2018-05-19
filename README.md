@@ -21,7 +21,7 @@ shoppingBag.ToBinaryFile("shoppingBag.bin");
 DynamicBag shoppingBag2 = DynamicBag.FromBinaryFile("shoppingBag.bin");
 
 //Get some stuff from our bags (and get the spareBag out of the shoppingBag)
-DynamicBag spareBag = shoppingBag2["spareBag"];
-string carCoin2 = spareBag["carCoin"];
-int carValue2 = spareBag["carValue"];
+DynamicBag spareBag2 = shoppingBag2["spareBag"];
+string carCoin2 = spareBag2["carCoin"];
+int carValue2 = spareBag2["carValue"];
 ```
